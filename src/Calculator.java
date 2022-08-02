@@ -5,8 +5,6 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 public class Calculator {
-
-    // overview
     // we use two arrays.
     // - 1st holds values to be solved
     // - 2nd holds values to be used as buttons
@@ -36,6 +34,7 @@ public class Calculator {
             JButton button = new JButton(valueText);  // make button with the value
             button.setBackground(Color.BLACK);     // change background color of button(black)
             button.setForeground(Color.white);     // change text color of the button(white)
+            button.setFont(new Font("Arial", Font.PLAIN, 40));     // set font of button and increase size
             myFrame.add(button);         // add button to frame
 
             // add action listener to button
