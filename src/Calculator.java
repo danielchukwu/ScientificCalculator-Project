@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 public class Calculator {
+    // NOTE: Sir this calculator can only work with two operands(0123456789, 0123456789) and one operator between them(e.g + - / X)
     // we use two arrays.
     // - 1st holds values to be solved
     // - 2nd holds values to be used as buttons
